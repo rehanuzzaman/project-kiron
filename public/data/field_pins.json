@@ -1,0 +1,147 @@
+[
+  {
+    "id": "pin_burigoalini_breach",
+    "name": "Burigoalini Embankment Rupture Point",
+    "coordinates": [
+      89.1362,
+      22.2885
+    ],
+    "zone_ref": "burigoalini_polder5_breach",
+    "village": "Burigoalini Village, Ward 4",
+    "upazila": "Shyamnagar, Satkhira",
+    "photo_url": "/images/field/burigoalini_breach.svg",
+    "photo_caption": "Surge erosion eating through the earthen dike of Polder 5 along the Kholpetua River.",
+    "scientific_hypothesis": {
+      "title": "Sub-surface Shear Failure under Tidal Hydrostatic Pressure",
+      "radar_explanation": "During Cyclone Remal, L-band HH backscatter plummeted from -13 dB to -24 dB as standing saline water flooded agricultural homesteads, turning dry soil into a specular radar mirror. Cross-pol HV loss indicates complete loss of ground canopy roughness.",
+      "dielectric_shift": "Soil dielectric permittivity shifted from eps=19.5 (dry clayey silt) to eps=78.2 (saline seawater with 24 ppt NaCl).",
+      "physical_driver": "High Dielectric Constant (Saline Water) & Specular Scattering."
+    },
+    "farmer_advisory": {
+      "primary_action": "Urgent Drainage & Saline Flushing with Rainwater",
+      "seed_recommendation": "BRRI dhan67 (tolerates up to 12 dS/m salinity at seedling stage) or BINA dhan-10 for the Boro season.",
+      "long_term_strategy": "Install check-valves on homestead sluice gates; rotate low-salinity aquaculture with freshwater carp during monsoon flushing.",
+      "urgency": "HIGH"
+    },
+    "policymaker_bulletin": {
+      "risk_level": "CRITICAL EMERGENCY",
+      "structural_advice": "Transition from uncompacted sand-clay dykes to composite geotextile-tube cores lined with vetiver grass root reinforcement. Raise crest freeboard to 5.2m PWD."
+    }
+  },
+  {
+    "id": "pin_gabura_subsidence",
+    "name": "Gabura Polder 15 Center (Subsidence Hotspot)",
+    "coordinates": [
+      89.1758,
+      22.2514
+    ],
+    "zone_ref": "gabura_island_polder15",
+    "village": "Chakbara, Gabura Island",
+    "upazila": "Shyamnagar, Satkhira",
+    "photo_url": "/images/field/gabura_polder.svg",
+    "photo_caption": "Subsiding polder settlement surrounded by saline shrimp ghers below mean high tide level.",
+    "scientific_hypothesis": {
+      "title": "Holocene Sediment Compaction & Ground Water Drainage Subsidence",
+      "radar_explanation": "InSAR phase coherence indicates continuous subsidence at -25.8 mm/yr. Because the polder interior is ringed by dikes that block natural tidal sediment siltation, the ground elevation is now 1.2m below average daily high tide level.",
+      "dielectric_shift": "Permanent sub-surface waterlogging maintains dielectric constant between 38 and 62 year-round.",
+      "physical_driver": "Interferometric SAR (InSAR) Phase Unwrapping & Low Elevation."
+    },
+    "farmer_advisory": {
+      "primary_action": "Tidal River Management (TRM) Silt Trapping",
+      "seed_recommendation": "Crab fattening in submerged enclosures; brackish mangrove polyculture with Scylla serrata.",
+      "long_term_strategy": "Advocate for controlled TRM beel breaches to let tidal silt naturally elevate land elevation by 10-15 cm per monsoon cycle.",
+      "urgency": "HIGH"
+    },
+    "policymaker_bulletin": {
+      "risk_level": "PERMANENT VULNERABILITY",
+      "structural_advice": "Deploy BWDB controlled sedimentation basins (TRM). Traditional dyke raising alone will fail due to underlying soft clay bearing capacity limits."
+    }
+  },
+  {
+    "id": "pin_munshiganj_station",
+    "name": "Munshiganj Sundarbans Eco-Observation Station",
+    "coordinates": [
+      89.2312,
+      22.2045
+    ],
+    "zone_ref": "sundarbans_munshiganj_core",
+    "village": "Munshiganj Forest Gateway",
+    "upazila": "Shyamnagar, Satkhira",
+    "photo_url": "/images/field/sundarbans_mangrove.svg",
+    "photo_caption": "Pneumatophore root systems of Sundari trees dissipating storm wave energy along the river bank.",
+    "scientific_hypothesis": {
+      "title": "Double-Bounce Canopy Trunk Scattering & Wave Dissipation",
+      "radar_explanation": "When tidal surges penetrate the forest floor, L-band (24 cm wavelength) penetrates the dense leaf canopy and bounces off tree trunks into the water and back to the radar sensor. This creates an anomalous 4.5 dB increase in L-HH backscatter, easily distinguishing flooded mangrove from open water.",
+      "dielectric_shift": "Stable canopy moisture (dielectric eps=24.0), high root-zone roughness (k*sigma > 2.5).",
+      "physical_driver": "Volume Scattering (HV) & Dihedral Double-Bounce (HH)."
+    },
+    "farmer_advisory": {
+      "primary_action": "Maintain 50m Mangrove Greenbelt Buffer",
+      "seed_recommendation": "Plant Golpata (Nypa fruticans) and Keora (Sonneratia apetala) seedlings along exterior dyke toes to absorb boat wake and tidal shear.",
+      "long_term_strategy": "Avoid clear-cutting canal-edge shrubs for shrimp nursery netting.",
+      "urgency": "SAFE / CONSERVATIVE"
+    },
+    "policymaker_bulletin": {
+      "risk_level": "ECOSYSTEM SHIELD (LOW RISK)",
+      "structural_advice": "Declare 200m buffer zone as bio-shield. Every 100m of dense mangrove reduces cyclonic wave energy by up to 66%."
+    }
+  },
+  {
+    "id": "pin_nakipur_research",
+    "name": "Nakipur Agriculture & Climate Adaptation Hub",
+    "coordinates": [
+      89.1025,
+      22.3481
+    ],
+    "zone_ref": "nakipur_agricultural_belt",
+    "village": "Nakipur Sadar",
+    "upazila": "Shyamnagar, Satkhira",
+    "photo_url": "/images/field/nakipur_agriculture.svg",
+    "photo_caption": "Demonstration plots of saline-tolerant Aman rice varieties grown under regulated furrow irrigation.",
+    "scientific_hypothesis": {
+      "title": "Soil Moisture Dielectric Tuning & Roughness Backscatter Correlation",
+      "radar_explanation": "S-band (9 cm wavelength) is acutely sensitive to soil surface plowing roughness and vegetative leaf area index (LAI). Comparing L-band and S-band allows precise separation of topsoil salinity crystallization from underlying root-zone volumetric moisture.",
+      "dielectric_shift": "Dielectric shifts from eps=14.5 (dry season) to eps=32.0 after seasonal irrigation.",
+      "physical_driver": "Dual-Band Multi-Frequency Inversion (L-band volume vs S-band roughness)."
+    },
+    "farmer_advisory": {
+      "primary_action": "Adopt Alternate Wetting & Drying (AWD) & Saline Soil Gypsum Dressing",
+      "seed_recommendation": "BRRI dhan67, BRRI dhan97, and BINA dhan-10. Apply gypsum (calcium sulfate) at 120 kg/ha to displace exchangeable sodium ions.",
+      "long_term_strategy": "Harvest rainwater in excavated homestead ponds during monsoon for dry season drip-irrigation of winter vegetables.",
+      "urgency": "MODERATE"
+    },
+    "policymaker_bulletin": {
+      "risk_level": "ADAPTATION PRIORITY",
+      "structural_advice": "Subsidize community rainwater collection reservoirs and solar pumps to prevent groundwater aquifer over-extraction."
+    }
+  },
+  {
+    "id": "pin_padmapukur_fishery",
+    "name": "Padmapukur Fishery Cooperative",
+    "coordinates": [
+      89.208,
+      22.295
+    ],
+    "zone_ref": "padmapukur_saline_ghers",
+    "village": "Padmapukur Union",
+    "upazila": "Shyamnagar, Satkhira",
+    "photo_url": "/images/field/padmapukur_gher.svg",
+    "photo_caption": "Intensive Bagda shrimp ponds with earthen bunds showing signs of wave-lap erosion.",
+    "scientific_hypothesis": {
+      "title": "Specular Polarimetric Depolarization in Aquaculture Ponds",
+      "radar_explanation": "Calm water in shrimp ghers acts as a near-perfect specular reflector, sending radar pulses away and resulting in extremely low backscatter across all polarizations (-20 to -26 dB). Wind-induced surface ripples increase VV backscatter by 3 to 6 dB.",
+      "dielectric_shift": "Permanent high dielectric constant eps=68 to 74 with saline electrolyte concentration.",
+      "physical_driver": "High Dielectric Constant & Low Surface Roughness."
+    },
+    "farmer_advisory": {
+      "primary_action": "Strengthen Internal Gher Bunds & Install Aerators",
+      "seed_recommendation": "Polyculture with Tilapia (Oreochromis mossambicus) and Seaweed (Gracilaria) to balance pond salinity and reduce toxic sulfur buildup.",
+      "long_term_strategy": "Avoid excessive pond deepening that compromises adjacent protective road embankments.",
+      "urgency": "MODERATE"
+    },
+    "policymaker_bulletin": {
+      "risk_level": "ECONOMIC ASSET / HIGH EXPOSURE",
+      "structural_advice": "Enforce setback zoning regulations prohibiting gher excavation within 50 meters of BWDB river embankments."
+    }
+  }
+]

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "name": "nisar_coastal_embankments",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "emb_polder5_kholpetua",
+      "properties": {
+        "id": "emb_polder5_kholpetua",
+        "name": "Polder 5 West Dyke (Kholpetua River Front)",
+        "polder_number": 5,
+        "design_crest_height_m": 4.5,
+        "actual_crest_height_m": 3.1,
+        "bwdb_status": "CRITICAL_RISK",
+        "temporal": {
+          "2024-04-12": {
+            "status": "Vulnerable (Eroded Crest)",
+            "breached": false,
+            "risk_score": 68
+          },
+          "2024-05-27": {
+            "status": "BREACHED (Surge Overtop)",
+            "breached": true,
+            "risk_score": 98
+          },
+          "2024-10-18": {
+            "status": "Emergency Ring Bund Repair",
+            "breached": false,
+            "risk_score": 75
+          },
+          "2025-05-14": {
+            "status": "BREACHED (Spring Tide Failure)",
+            "breached": true,
+            "risk_score": 94
+          },
+          "2025-11-05": {
+            "status": "Geo-Tube Core Reinforced",
+            "breached": false,
+            "risk_score": 45
+          },
+          "2026-04-10": {
+            "status": "Stable (Sensor Monitored)",
+            "breached": false,
+            "risk_score": 38
+          }
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.112,
+            22.268
+          ],
+          [
+            89.13,
+            22.285
+          ],
+          [
+            89.148,
+            22.302
+          ],
+          [
+            89.162,
+            22.325
+          ],
+          [
+            89.17,
+            22.355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "emb_gabura_perimeter",
+      "properties": {
+        "id": "emb_gabura_perimeter",
+        "name": "Gabura Ring Embankment (Polder 15)",
+        "polder_number": 15,
+        "design_crest_height_m": 4.2,
+        "actual_crest_height_m": 2.7,
+        "bwdb_status": "EXTREME_SUBSIDENCE_RISK",
+        "temporal": {
+          "2024-04-12": {
+            "status": "Low Freeboard (2.7m)",
+            "breached": false,
+            "risk_score": 72
+          },
+          "2024-05-27": {
+            "status": "MULTIPLE BREACHES (South & East)",
+            "breached": true,
+            "risk_score": 99
+          },
+          "2024-10-18": {
+            "status": "Earthen Patchwork",
+            "breached": false,
+            "risk_score": 82
+          },
+          "2025-05-14": {
+            "status": "Partial Toe Scouring",
+            "breached": false,
+            "risk_score": 86
+          },
+          "2025-11-05": {
+            "status": "Clay Berm Added",
+            "breached": false,
+            "risk_score": 58
+          },
+          "2026-04-10": {
+            "status": "Active InSAR Inclinometer Watch",
+            "breached": false,
+            "risk_score": 52
+          }
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.155,
+            22.222
+          ],
+          [
+            89.212,
+            22.238
+          ],
+          [
+            89.218,
+            22.282
+          ],
+          [
+            89.172,
+            22.278
+          ],
+          [
+            89.146,
+            22.248
+          ],
+          [
+            89.155,
+            22.222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "emb_munshiganj_forest_barrier",
+      "properties": {
+        "id": "emb_munshiganj_forest_barrier",
+        "name": "Munshiganj Sundarbans Eco-Protection Dyke",
+        "polder_number": 7,
+        "design_crest_height_m": 5.0,
+        "actual_crest_height_m": 4.6,
+        "bwdb_status": "STABLE_PROTECTED",
+        "temporal": {
+          "2024-04-12": {
+            "status": "Intact Mangrove Wave Buffer",
+            "breached": false,
+            "risk_score": 18
+          },
+          "2024-05-27": {
+            "status": "Wave Attenuated by Mangrove",
+            "breached": false,
+            "risk_score": 35
+          },
+          "2024-10-18": {
+            "status": "Minor Silt Accumulation",
+            "breached": false,
+            "risk_score": 22
+          },
+          "2025-05-14": {
+            "status": "Intact",
+            "breached": false,
+            "risk_score": 24
+          },
+          "2025-11-05": {
+            "status": "Reinforced Stone Pitching",
+            "breached": false,
+            "risk_score": 15
+          },
+          "2026-04-10": {
+            "status": "Optimal Health",
+            "breached": false,
+            "risk_score": 12
+          }
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.182,
+            22.192
+          ],
+          [
+            89.225,
+            22.215
+          ],
+          [
+            89.255,
+            22.235
+          ],
+          [
+            89.278,
+            22.258
+          ]
+        ]
+      }
+    }
+  ]
+}

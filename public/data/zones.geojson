@@ -1,0 +1,1056 @@
+{
+  "type": "FeatureCollection",
+  "name": "nisar_bengal_delta_zones",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "sundarbans_munshiganj_core",
+      "properties": {
+        "id": "sundarbans_munshiganj_core",
+        "name": "Sundarbans Munshiganj Buffer & Mangrove Core",
+        "type": "mangrove_forest",
+        "category": "Protected Forest Ecosystem",
+        "safe_indicator": true,
+        "elevation_m": 1.4,
+        "subsidence_mm_yr": -4.2,
+        "dominant_species": "Heritiera fomes (Sundari), Excoecaria agallocha (Gewa)",
+        "soil_type": "Saline Tidal Alluvial Gley",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": false,
+            "dielectric_constant": 28.3,
+            "surface_roughness": 0.87,
+            "soil_salinity_ppt": 9.9,
+            "soil_moisture_m3m3": 0.255,
+            "L_Band": {
+              "HH": -7.36,
+              "HV": -13.92,
+              "VV": -9.68,
+              "VH": -14.24,
+              "polarization_ratio_HH_HV": 6.56
+            },
+            "S_Band": {
+              "HH": -12.29,
+              "HV": -17.41,
+              "VV": -13.14,
+              "VH": -17.73,
+              "polarization_ratio_HH_HV": 5.12
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 41.6,
+            "surface_roughness": 0.83,
+            "soil_salinity_ppt": 14.6,
+            "soil_moisture_m3m3": 0.374,
+            "L_Band": {
+              "HH": -3.8,
+              "HV": -13.03,
+              "VV": -9.31,
+              "VH": -13.42,
+              "polarization_ratio_HH_HV": 9.23
+            },
+            "S_Band": {
+              "HH": -12.88,
+              "HV": -17.11,
+              "VV": -13.59,
+              "VH": -17.51,
+              "polarization_ratio_HH_HV": 4.23
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": false,
+            "dielectric_constant": 31.2,
+            "surface_roughness": 0.86,
+            "soil_salinity_ppt": 10.9,
+            "soil_moisture_m3m3": 0.281,
+            "L_Band": {
+              "HH": -6.57,
+              "HV": -13.72,
+              "VV": -9.6,
+              "VH": -14.06,
+              "polarization_ratio_HH_HV": 7.15
+            },
+            "S_Band": {
+              "HH": -12.42,
+              "HV": -17.34,
+              "VV": -13.24,
+              "VH": -17.68,
+              "polarization_ratio_HH_HV": 4.92
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 36.8,
+            "surface_roughness": 0.84,
+            "soil_salinity_ppt": 12.9,
+            "soil_moisture_m3m3": 0.331,
+            "L_Band": {
+              "HH": -5.09,
+              "HV": -13.35,
+              "VV": -9.45,
+              "VH": -13.72,
+              "polarization_ratio_HH_HV": 8.26
+            },
+            "S_Band": {
+              "HH": -12.67,
+              "HV": -17.22,
+              "VV": -13.43,
+              "VH": -17.59,
+              "polarization_ratio_HH_HV": 4.55
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": false,
+            "dielectric_constant": 29.3,
+            "surface_roughness": 0.87,
+            "soil_salinity_ppt": 10.3,
+            "soil_moisture_m3m3": 0.264,
+            "L_Band": {
+              "HH": -7.08,
+              "HV": -13.84,
+              "VV": -9.65,
+              "VH": -14.17,
+              "polarization_ratio_HH_HV": 6.76
+            },
+            "S_Band": {
+              "HH": -12.34,
+              "HV": -17.38,
+              "VV": -13.18,
+              "VH": -17.71,
+              "polarization_ratio_HH_HV": 5.04
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": false,
+            "dielectric_constant": 29.8,
+            "surface_roughness": 0.86,
+            "soil_salinity_ppt": 10.4,
+            "soil_moisture_m3m3": 0.268,
+            "L_Band": {
+              "HH": -6.95,
+              "HV": -13.81,
+              "VV": -9.64,
+              "VH": -14.14,
+              "polarization_ratio_HH_HV": 6.86
+            },
+            "S_Band": {
+              "HH": -12.36,
+              "HV": -17.37,
+              "VV": -13.19,
+              "VH": -17.7,
+              "polarization_ratio_HH_HV": 5.01
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.18,
+              22.19
+            ],
+            [
+              89.28,
+              22.19
+            ],
+            [
+              89.28,
+              22.25
+            ],
+            [
+              89.23,
+              22.26
+            ],
+            [
+              89.19,
+              22.235
+            ],
+            [
+              89.18,
+              22.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "burigoalini_polder5_breach",
+      "properties": {
+        "id": "burigoalini_polder5_breach",
+        "name": "Burigoalini Polder 5 Embankment Breach Zone",
+        "type": "settlement_breach",
+        "category": "High Vulnerability Settlement",
+        "safe_indicator": false,
+        "elevation_m": 0.85,
+        "subsidence_mm_yr": -19.5,
+        "dominant_species": "Human Settlement & Homestead Gardens",
+        "soil_type": "Clayey Silt / Saline Intrusion",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": false,
+            "dielectric_constant": 32.8,
+            "surface_roughness": 0.35,
+            "soil_salinity_ppt": 11.5,
+            "soil_moisture_m3m3": 0.295,
+            "L_Band": {
+              "HH": -15.45,
+              "HV": -20.23,
+              "VV": -15.85,
+              "VH": -20.68,
+              "polarization_ratio_HH_HV": 4.78
+            },
+            "S_Band": {
+              "HH": -17.25,
+              "HV": -23.07,
+              "VV": -17.81,
+              "VH": -23.29,
+              "polarization_ratio_HH_HV": 5.82
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 75.5,
+            "surface_roughness": 0.12,
+            "soil_salinity_ppt": 26.4,
+            "soil_moisture_m3m3": 0.679,
+            "L_Band": {
+              "HH": -22.7,
+              "HV": -24.2,
+              "VV": -21.8,
+              "VH": -24.5,
+              "polarization_ratio_HH_HV": 1.5
+            },
+            "S_Band": {
+              "HH": -22.9,
+              "HV": -26.5,
+              "VV": -23.0,
+              "VH": -26.5,
+              "polarization_ratio_HH_HV": 3.6
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": true,
+            "dielectric_constant": 51.0,
+            "surface_roughness": 0.25,
+            "soil_salinity_ppt": 17.8,
+            "soil_moisture_m3m3": 0.459,
+            "L_Band": {
+              "HH": -18.54,
+              "HV": -21.92,
+              "VV": -18.39,
+              "VH": -22.31,
+              "polarization_ratio_HH_HV": 3.38
+            },
+            "S_Band": {
+              "HH": -19.66,
+              "HV": -24.53,
+              "VV": -20.02,
+              "VH": -24.66,
+              "polarization_ratio_HH_HV": 4.87
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 75.2,
+            "surface_roughness": 0.12,
+            "soil_salinity_ppt": 26.3,
+            "soil_moisture_m3m3": 0.677,
+            "L_Band": {
+              "HH": -22.64,
+              "HV": -24.17,
+              "VV": -21.75,
+              "VH": -24.47,
+              "polarization_ratio_HH_HV": 1.53
+            },
+            "S_Band": {
+              "HH": -22.86,
+              "HV": -26.47,
+              "VV": -22.96,
+              "VH": -26.47,
+              "polarization_ratio_HH_HV": 3.61
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": false,
+            "dielectric_constant": 42.8,
+            "surface_roughness": 0.3,
+            "soil_salinity_ppt": 15.0,
+            "soil_moisture_m3m3": 0.385,
+            "L_Band": {
+              "HH": -17.15,
+              "HV": -21.16,
+              "VV": -17.24,
+              "VH": -21.58,
+              "polarization_ratio_HH_HV": 4.01
+            },
+            "S_Band": {
+              "HH": -18.57,
+              "HV": -23.87,
+              "VV": -19.02,
+              "VH": -24.04,
+              "polarization_ratio_HH_HV": 5.3
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": true,
+            "dielectric_constant": 44.8,
+            "surface_roughness": 0.28,
+            "soil_salinity_ppt": 15.7,
+            "soil_moisture_m3m3": 0.403,
+            "L_Band": {
+              "HH": -17.5,
+              "HV": -21.35,
+              "VV": -17.53,
+              "VH": -21.76,
+              "polarization_ratio_HH_HV": 3.85
+            },
+            "S_Band": {
+              "HH": -18.85,
+              "HV": -24.04,
+              "VV": -19.28,
+              "VH": -24.2,
+              "polarization_ratio_HH_HV": 5.19
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.11,
+              22.265
+            ],
+            [
+              89.165,
+              22.27
+            ],
+            [
+              89.17,
+              22.315
+            ],
+            [
+              89.125,
+              22.32
+            ],
+            [
+              89.095,
+              22.29
+            ],
+            [
+              89.11,
+              22.265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gabura_island_polder15",
+      "properties": {
+        "id": "gabura_island_polder15",
+        "name": "Gabura Island Subsidence Hotspot",
+        "type": "polder_island",
+        "category": "Vulnerable Island Polder",
+        "safe_indicator": false,
+        "elevation_m": 0.65,
+        "subsidence_mm_yr": -25.8,
+        "dominant_species": "Bagda Shrimp Ponds & Sparse Reeds",
+        "soil_type": "Heavy Saline Marine Mud",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": false,
+            "dielectric_constant": 51.3,
+            "surface_roughness": 0.21,
+            "soil_salinity_ppt": 18.0,
+            "soil_moisture_m3m3": 0.462,
+            "L_Band": {
+              "HH": -18.75,
+              "HV": -23.63,
+              "VV": -18.85,
+              "VH": -23.98,
+              "polarization_ratio_HH_HV": 4.88
+            },
+            "S_Band": {
+              "HH": -19.95,
+              "HV": -25.87,
+              "VV": -20.51,
+              "VH": -25.99,
+              "polarization_ratio_HH_HV": 5.92
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 92.8,
+            "surface_roughness": 0.08,
+            "soil_salinity_ppt": 32.5,
+            "soil_moisture_m3m3": 0.68,
+            "L_Band": {
+              "HH": -25.79,
+              "HV": -27.49,
+              "VV": -24.63,
+              "VH": -27.69,
+              "polarization_ratio_HH_HV": 1.7
+            },
+            "S_Band": {
+              "HH": -25.44,
+              "HV": -29.2,
+              "VV": -25.55,
+              "VH": -29.11,
+              "polarization_ratio_HH_HV": 3.76
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": false,
+            "dielectric_constant": 60.5,
+            "surface_roughness": 0.16,
+            "soil_salinity_ppt": 21.2,
+            "soil_moisture_m3m3": 0.544,
+            "L_Band": {
+              "HH": -20.32,
+              "HV": -24.49,
+              "VV": -20.13,
+              "VH": -24.81,
+              "polarization_ratio_HH_HV": 4.17
+            },
+            "S_Band": {
+              "HH": -21.17,
+              "HV": -26.61,
+              "VV": -21.63,
+              "VH": -26.69,
+              "polarization_ratio_HH_HV": 5.44
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 77.8,
+            "surface_roughness": 0.08,
+            "soil_salinity_ppt": 27.2,
+            "soil_moisture_m3m3": 0.68,
+            "L_Band": {
+              "HH": -23.25,
+              "HV": -26.09,
+              "VV": -22.54,
+              "VH": -26.35,
+              "polarization_ratio_HH_HV": 2.84
+            },
+            "S_Band": {
+              "HH": -23.45,
+              "HV": -28.0,
+              "VV": -23.73,
+              "VH": -27.98,
+              "polarization_ratio_HH_HV": 4.55
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": false,
+            "dielectric_constant": 54.6,
+            "surface_roughness": 0.19,
+            "soil_salinity_ppt": 19.1,
+            "soil_moisture_m3m3": 0.491,
+            "L_Band": {
+              "HH": -19.32,
+              "HV": -23.94,
+              "VV": -19.31,
+              "VH": -24.28,
+              "polarization_ratio_HH_HV": 4.62
+            },
+            "S_Band": {
+              "HH": -20.4,
+              "HV": -26.14,
+              "VV": -20.92,
+              "VH": -26.25,
+              "polarization_ratio_HH_HV": 5.74
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": false,
+            "dielectric_constant": 56.1,
+            "surface_roughness": 0.18,
+            "soil_salinity_ppt": 19.6,
+            "soil_moisture_m3m3": 0.505,
+            "L_Band": {
+              "HH": -19.57,
+              "HV": -24.08,
+              "VV": -19.52,
+              "VH": -24.42,
+              "polarization_ratio_HH_HV": 4.51
+            },
+            "S_Band": {
+              "HH": -20.59,
+              "HV": -26.25,
+              "VV": -21.1,
+              "VH": -26.36,
+              "polarization_ratio_HH_HV": 5.66
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.155,
+              22.22
+            ],
+            [
+              89.215,
+              22.235
+            ],
+            [
+              89.22,
+              22.285
+            ],
+            [
+              89.175,
+              22.28
+            ],
+            [
+              89.145,
+              22.25
+            ],
+            [
+              89.155,
+              22.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "padmapukur_saline_ghers",
+      "properties": {
+        "id": "padmapukur_saline_ghers",
+        "name": "Padmapukur Brackish Aquaculture Polders",
+        "type": "aquaculture_gher",
+        "category": "Commercial Shrimp Aquaculture",
+        "safe_indicator": false,
+        "elevation_m": 0.95,
+        "subsidence_mm_yr": -16.4,
+        "dominant_species": "Penaeus monodon (Bagda), Mud Crab",
+        "soil_type": "Acid Sulfate Saline Clay",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": true,
+            "dielectric_constant": 68.0,
+            "surface_roughness": 0.15,
+            "soil_salinity_ppt": 23.8,
+            "soil_moisture_m3m3": 0.612,
+            "L_Band": {
+              "HH": -20.5,
+              "HV": -25.2,
+              "VV": -21.0,
+              "VH": -25.6,
+              "polarization_ratio_HH_HV": 4.7
+            },
+            "S_Band": {
+              "HH": -22.1,
+              "HV": -27.5,
+              "VV": -22.8,
+              "VH": -27.9,
+              "polarization_ratio_HH_HV": 5.4
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.195,
+              22.28
+            ],
+            [
+              89.26,
+              22.29
+            ],
+            [
+              89.265,
+              22.345
+            ],
+            [
+              89.21,
+              22.35
+            ],
+            [
+              89.185,
+              22.315
+            ],
+            [
+              89.195,
+              22.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nakipur_agricultural_belt",
+      "properties": {
+        "id": "nakipur_agricultural_belt",
+        "name": "Nakipur Saline-Resistant Rice Belt",
+        "type": "agriculture_cropland",
+        "category": "Agricultural Transition Plain",
+        "safe_indicator": true,
+        "elevation_m": 2.1,
+        "subsidence_mm_yr": -8.1,
+        "dominant_species": "BRRI dhan67, BINA dhan-10 (Salt-Tolerant Rice)",
+        "soil_type": "Moderate Saline Sandy Loam",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": false,
+            "dielectric_constant": 27.8,
+            "surface_roughness": 0.48,
+            "soil_salinity_ppt": 9.7,
+            "soil_moisture_m3m3": 0.25,
+            "L_Band": {
+              "HH": -14.65,
+              "HV": -19.43,
+              "VV": -14.95,
+              "VH": -19.68,
+              "polarization_ratio_HH_HV": 4.78
+            },
+            "S_Band": {
+              "HH": -16.35,
+              "HV": -21.87,
+              "VV": -17.01,
+              "VH": -22.19,
+              "polarization_ratio_HH_HV": 5.52
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 69.3,
+            "surface_roughness": 0.26,
+            "soil_salinity_ppt": 24.3,
+            "soil_moisture_m3m3": 0.624,
+            "L_Band": {
+              "HH": -21.69,
+              "HV": -23.29,
+              "VV": -20.73,
+              "VH": -23.39,
+              "polarization_ratio_HH_HV": 1.6
+            },
+            "S_Band": {
+              "HH": -21.84,
+              "HV": -25.2,
+              "VV": -22.05,
+              "VH": -25.31,
+              "polarization_ratio_HH_HV": 3.36
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": false,
+            "dielectric_constant": 37.0,
+            "surface_roughness": 0.43,
+            "soil_salinity_ppt": 12.9,
+            "soil_moisture_m3m3": 0.333,
+            "L_Band": {
+              "HH": -16.22,
+              "HV": -20.29,
+              "VV": -16.23,
+              "VH": -20.51,
+              "polarization_ratio_HH_HV": 4.07
+            },
+            "S_Band": {
+              "HH": -17.57,
+              "HV": -22.61,
+              "VV": -18.13,
+              "VH": -22.89,
+              "polarization_ratio_HH_HV": 5.04
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 54.3,
+            "surface_roughness": 0.34,
+            "soil_salinity_ppt": 19.0,
+            "soil_moisture_m3m3": 0.489,
+            "L_Band": {
+              "HH": -19.15,
+              "HV": -21.89,
+              "VV": -18.64,
+              "VH": -22.05,
+              "polarization_ratio_HH_HV": 2.74
+            },
+            "S_Band": {
+              "HH": -19.85,
+              "HV": -24.0,
+              "VV": -20.23,
+              "VH": -24.18,
+              "polarization_ratio_HH_HV": 4.15
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": false,
+            "dielectric_constant": 31.1,
+            "surface_roughness": 0.46,
+            "soil_salinity_ppt": 10.9,
+            "soil_moisture_m3m3": 0.28,
+            "L_Band": {
+              "HH": -15.22,
+              "HV": -19.74,
+              "VV": -15.41,
+              "VH": -19.98,
+              "polarization_ratio_HH_HV": 4.52
+            },
+            "S_Band": {
+              "HH": -16.8,
+              "HV": -22.14,
+              "VV": -17.42,
+              "VH": -22.45,
+              "polarization_ratio_HH_HV": 5.34
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": false,
+            "dielectric_constant": 32.6,
+            "surface_roughness": 0.45,
+            "soil_salinity_ppt": 11.4,
+            "soil_moisture_m3m3": 0.293,
+            "L_Band": {
+              "HH": -15.47,
+              "HV": -19.88,
+              "VV": -15.62,
+              "VH": -20.12,
+              "polarization_ratio_HH_HV": 4.41
+            },
+            "S_Band": {
+              "HH": -16.99,
+              "HV": -22.25,
+              "VV": -17.6,
+              "VH": -22.56,
+              "polarization_ratio_HH_HV": 5.26
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.06,
+              22.33
+            ],
+            [
+              89.135,
+              22.335
+            ],
+            [
+              89.14,
+              22.395
+            ],
+            [
+              89.075,
+              22.4
+            ],
+            [
+              89.05,
+              22.365
+            ],
+            [
+              89.06,
+              22.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atulia_kholpetua_floodplain",
+      "properties": {
+        "id": "atulia_kholpetua_floodplain",
+        "name": "Atulia & Kholpetua Estuarine Floodplain",
+        "type": "riparian_floodplain",
+        "category": "Tidal Riverbank & Mudflats",
+        "safe_indicator": false,
+        "elevation_m": 1.1,
+        "subsidence_mm_yr": -17.2,
+        "dominant_species": "Pneumatophore Mangrove Grass & Keora Trees",
+        "soil_type": "Fine Tidal Mud & Silt Deposits",
+        "temporal": {
+          "2024-04-12": {
+            "is_flooded": false,
+            "dielectric_constant": 45.3,
+            "surface_roughness": 0.41,
+            "soil_salinity_ppt": 15.9,
+            "soil_moisture_m3m3": 0.408,
+            "L_Band": {
+              "HH": -17.35,
+              "HV": -22.23,
+              "VV": -17.65,
+              "VH": -22.58,
+              "polarization_ratio_HH_HV": 4.88
+            },
+            "S_Band": {
+              "HH": -19.15,
+              "HV": -24.57,
+              "VV": -19.71,
+              "VH": -24.89,
+              "polarization_ratio_HH_HV": 5.42
+            }
+          },
+          "2024-05-27": {
+            "is_flooded": true,
+            "dielectric_constant": 86.8,
+            "surface_roughness": 0.19,
+            "soil_salinity_ppt": 30.4,
+            "soil_moisture_m3m3": 0.68,
+            "L_Band": {
+              "HH": -24.39,
+              "HV": -26.09,
+              "VV": -23.43,
+              "VH": -26.29,
+              "polarization_ratio_HH_HV": 1.7
+            },
+            "S_Band": {
+              "HH": -24.64,
+              "HV": -27.9,
+              "VV": -24.75,
+              "VH": -28.01,
+              "polarization_ratio_HH_HV": 3.26
+            }
+          },
+          "2024-10-18": {
+            "is_flooded": false,
+            "dielectric_constant": 54.5,
+            "surface_roughness": 0.36,
+            "soil_salinity_ppt": 19.1,
+            "soil_moisture_m3m3": 0.49,
+            "L_Band": {
+              "HH": -18.92,
+              "HV": -23.09,
+              "VV": -18.93,
+              "VH": -23.41,
+              "polarization_ratio_HH_HV": 4.17
+            },
+            "S_Band": {
+              "HH": -20.37,
+              "HV": -25.31,
+              "VV": -20.83,
+              "VH": -25.59,
+              "polarization_ratio_HH_HV": 4.94
+            }
+          },
+          "2025-05-14": {
+            "is_flooded": true,
+            "dielectric_constant": 71.8,
+            "surface_roughness": 0.27,
+            "soil_salinity_ppt": 25.1,
+            "soil_moisture_m3m3": 0.646,
+            "L_Band": {
+              "HH": -21.84,
+              "HV": -24.69,
+              "VV": -21.34,
+              "VH": -24.95,
+              "polarization_ratio_HH_HV": 2.85
+            },
+            "S_Band": {
+              "HH": -22.65,
+              "HV": -26.7,
+              "VV": -22.93,
+              "VH": -26.88,
+              "polarization_ratio_HH_HV": 4.05
+            }
+          },
+          "2025-11-05": {
+            "is_flooded": false,
+            "dielectric_constant": 48.6,
+            "surface_roughness": 0.39,
+            "soil_salinity_ppt": 17.0,
+            "soil_moisture_m3m3": 0.437,
+            "L_Band": {
+              "HH": -17.92,
+              "HV": -22.54,
+              "VV": -18.11,
+              "VH": -22.88,
+              "polarization_ratio_HH_HV": 4.62
+            },
+            "S_Band": {
+              "HH": -19.6,
+              "HV": -24.84,
+              "VV": -20.12,
+              "VH": -25.15,
+              "polarization_ratio_HH_HV": 5.24
+            }
+          },
+          "2026-04-10": {
+            "is_flooded": false,
+            "dielectric_constant": 50.1,
+            "surface_roughness": 0.38,
+            "soil_salinity_ppt": 17.5,
+            "soil_moisture_m3m3": 0.451,
+            "L_Band": {
+              "HH": -18.17,
+              "HV": -22.68,
+              "VV": -18.32,
+              "VH": -23.02,
+              "polarization_ratio_HH_HV": 4.51
+            },
+            "S_Band": {
+              "HH": -19.79,
+              "HV": -24.95,
+              "VV": -20.3,
+              "VH": -25.26,
+              "polarization_ratio_HH_HV": 5.16
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.12,
+              22.325
+            ],
+            [
+              89.185,
+              22.33
+            ],
+            [
+              89.19,
+              22.385
+            ],
+            [
+              89.145,
+              22.39
+            ],
+            [
+              89.105,
+              22.355
+            ],
+            [
+              89.12,
+              22.325
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

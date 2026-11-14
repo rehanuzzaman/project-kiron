@@ -1,0 +1,143 @@
+{
+  "project": "Project Kiron",
+  "team": "Team Bengal Orbit",
+  "event": "NASA Space Apps Challenge 2026 (Earth's Endless Dance)",
+  "center": [
+    89.1,
+    22.33
+  ],
+  "bbox": [
+    89.0,
+    22.15,
+    89.3,
+    22.45
+  ],
+  "timeline": [
+    {
+      "id": "2024-04-12",
+      "date": "2024-04-12",
+      "title": "Pre-Monsoon Dry Baseline",
+      "season": "Dry Spring",
+      "cyclone_event": null,
+      "description": "Baseline NISAR cal/val orbit during late dry season. Soils are dry to moderate moisture; aquaculture ghers maintain controlled brackish salinity.",
+      "inundation_percentage": 14.2,
+      "mean_dielectric": 18.5,
+      "mean_l_hh": -14.2,
+      "mean_s_hh": -16.8,
+      "embankment_breach_count": 0,
+      "subsidence_anomaly_rate": -14.2,
+      "sonification": {
+        "root_frequency": 220.0,
+        "chord_type": "major_sixth",
+        "tempo_bpm": 68,
+        "dissonance": 0.08,
+        "drone_intensity": 0.25
+      }
+    },
+    {
+      "id": "2024-05-27",
+      "date": "2024-05-27",
+      "title": "Severe Cyclone Remal Inundation",
+      "season": "Pre-Monsoon Cyclone",
+      "cyclone_event": "Cyclone Remal (Category 1, 115 km/h)",
+      "description": "Catastrophic storm surge breaches Polder 5 & 15. Optical satellites blinded by 100% thick cloud veil; NISAR L-band penetrates cloud and deluge, revealing widespread seawater inundation.",
+      "inundation_percentage": 58.7,
+      "mean_dielectric": 64.8,
+      "mean_l_hh": -23.4,
+      "mean_s_hh": -21.9,
+      "embankment_breach_count": 7,
+      "subsidence_anomaly_rate": -26.5,
+      "sonification": {
+        "root_frequency": 110.0,
+        "chord_type": "minor_diminished",
+        "tempo_bpm": 128,
+        "dissonance": 0.85,
+        "drone_intensity": 0.95
+      }
+    },
+    {
+      "id": "2024-10-18",
+      "date": "2024-10-18",
+      "title": "Post-Monsoon Drainage & Siltation",
+      "season": "Post-Monsoon",
+      "cyclone_event": null,
+      "description": "Drainage of monsoon floodwaters. L-band reveals high soil moisture retained in root zones and residual salinity crystallization in agricultural topsoils.",
+      "inundation_percentage": 24.1,
+      "mean_dielectric": 34.2,
+      "mean_l_hh": -16.5,
+      "mean_s_hh": -17.8,
+      "embankment_breach_count": 2,
+      "subsidence_anomaly_rate": -16.8,
+      "sonification": {
+        "root_frequency": 196.0,
+        "chord_type": "minor_seventh",
+        "tempo_bpm": 84,
+        "dissonance": 0.35,
+        "drone_intensity": 0.45
+      }
+    },
+    {
+      "id": "2025-05-14",
+      "date": "2025-05-14",
+      "title": "Pre-Monsoon Spring High Tide Surge",
+      "season": "Spring Tidal Surge",
+      "cyclone_event": "High Tide Spring Inrush",
+      "description": "Kholpetua river high tide overtops weakened earthen embankments in Burigoalini. S-band detects surface roughness changes along damaged embankment crests.",
+      "inundation_percentage": 42.6,
+      "mean_dielectric": 52.4,
+      "mean_l_hh": -20.8,
+      "mean_s_hh": -19.4,
+      "embankment_breach_count": 4,
+      "subsidence_anomaly_rate": -22.1,
+      "sonification": {
+        "root_frequency": 146.8,
+        "chord_type": "suspended_fourth_minor",
+        "tempo_bpm": 105,
+        "dissonance": 0.62,
+        "drone_intensity": 0.72
+      }
+    },
+    {
+      "id": "2025-11-05",
+      "date": "2025-11-05",
+      "title": "Embankment Geo-Tube Restoration",
+      "season": "Aman Harvest",
+      "cyclone_event": null,
+      "description": "Community and Bangladesh Water Development Board (BWDB) deploy geo-textile bags and earthen reinforcements. InSAR coherence improves over repaired dikes.",
+      "inundation_percentage": 17.8,
+      "mean_dielectric": 22.0,
+      "mean_l_hh": -15.1,
+      "mean_s_hh": -16.4,
+      "embankment_breach_count": 1,
+      "subsidence_anomaly_rate": -13.5,
+      "sonification": {
+        "root_frequency": 246.9,
+        "chord_type": "major_seventh",
+        "tempo_bpm": 74,
+        "dissonance": 0.14,
+        "drone_intensity": 0.32
+      }
+    },
+    {
+      "id": "2026-04-10",
+      "date": "2026-04-10",
+      "title": "Current Multi-Frequency Orbit",
+      "season": "Pre-Monsoon Cal/Val",
+      "cyclone_event": null,
+      "description": "Active dual L+S band observations. High-fidelity mapping of mangrove resilience, shrimp aquaculture boundaries, and localized land subsidence hotspots in Gabura.",
+      "inundation_percentage": 19.4,
+      "mean_dielectric": 24.6,
+      "mean_l_hh": -15.8,
+      "mean_s_hh": -16.9,
+      "embankment_breach_count": 1,
+      "subsidence_anomaly_rate": -15.1,
+      "sonification": {
+        "root_frequency": 261.6,
+        "chord_type": "lydian_cluster",
+        "tempo_bpm": 80,
+        "dissonance": 0.18,
+        "drone_intensity": 0.36
+      }
+    }
+  ]
+}
